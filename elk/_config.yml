@@ -68,4 +68,6 @@ theme: material
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/Lweiis/lweiis.github.io.git
+  brabch: master
