@@ -10,25 +10,46 @@ buildExpired: false
 enableEmoji: true
 
 summaryLength: 10
-
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 menu:
-
   main:
+    - identifier: posts
+      name: Posts
+      url: posts
+      weight: 5
+    - name: Search
+      url: search
+      weight: 10
     - name: Archive
       url: archives
       weight: 20
-    - name: Search
-      url: search/
-      weight: 10
-    - name: Tags
-      url: tags/
+    - name: Categories
+      url: categories
       weight: 30
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 5
+    - name: Tags
+      url: tags
+      weight: 40
+    - name: Series
+      url: series
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 
 params:
+  defaultTheme: light
+  utteranc:
+    enable: true
+    repo: Lweiis/blog-utterances
+    issueTerm: pathname
+    theme: github-light
+  comments: true
   homeInfoParams:
     Title: 欢迎来到我的 Blog
     Content: "There is only one heroism in the world：to see the world as it is and to love it."

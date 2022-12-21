@@ -5,6 +5,7 @@ categories:
   - Java
 tags:
   - Java
+  - SpEL
 summary: SpEL 的全称是：Spring Expression Language，即 Spring 表达式语言，它支持在运行时对对象图进行（object graph）查询和操作，以及方法调用和字符串模板功能。
 ---
 ### 起因
@@ -16,13 +17,12 @@ summary: SpEL 的全称是：Spring Expression Language，即 Spring 表达式�
 
 这些字符串存储在数据库中，在代码中使用 `SpelExpressionParser` 解析并执行
 
-### 关于 SpEL 的问题
-- #### [什么是 SpEL](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html) ？
+### [什么是 SpEL？](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html) 
 
-	SpEL 的全称是：Spring Expression Language，即 Spring 表达式语言，它支持在运行时对对象图进行（[object graph](https://en.wikipedia.org/wiki/Object_graph)）查询和操作，以及方法调用和字符串模板功能。
+SpEL 的全称是：Spring Expression Language，即 Spring 表达式语言，它支持在运行时对对象图进行（[object graph](https://en.wikipedia.org/wiki/Object_graph)）查询和操作，以及方法调用和字符串模板功能。
 	
 	
-- #### SpEL 的应用场景？
+### SpEL 的应用场景？
 在 XML 使用表达式设置系统变量或构造函数
 ```XML
 <property name="randomNumber" value="#{ T(java.lang.Math).random() * 100.0 }"/>
