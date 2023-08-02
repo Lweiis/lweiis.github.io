@@ -8,7 +8,7 @@ tags:
   - tutorial
   - Kindle
   - 电子书
-summary: 为了解决 PC、Android、Kindle 三端阅读同步的问题
+summary: 操作原理：通过另一个亚马逊应用代替 Kindle 应用进行美区账号登录。
 ---
 亚马逊取消中国区 Kindle 服务，为解决多端阅读进度同步，从中国区账号切换为美区账号，安卓端 APP 会出现无法登录美区账号的情况 
 
