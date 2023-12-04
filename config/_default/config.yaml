@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: Lweiis's Blog
-theme: github.com/adityatelange/hugo-PaperMod
+theme: paperMod
 
 enableRobotsTXT: true
 buildDrafts: false
