@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: Lweiis's Blog
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -44,6 +44,11 @@ outputs:
 
 params:
   defaultTheme: light
+  disableThemeToggle: true
+  ShowShareButtons: true # 分享按钮
+#  ShowReadingTime: true # 显示帖子预估阅读时间
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   utteranc:
     enable: true
     repo: Lweiis/blog-utterances
