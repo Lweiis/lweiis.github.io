@@ -64,6 +64,3 @@ params:
 #        url: "<link>"
 #    - name: "<platform 2>"
 #        url: "<link2>"
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
