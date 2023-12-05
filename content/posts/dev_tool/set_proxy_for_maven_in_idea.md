@@ -9,6 +9,8 @@ tags:
   - Maven
 categories:
   - DevTool
+series: 
+  - TheGreatWall
 ---
 >引用：stack overflow
 >[Intellij Community can't use http proxy for Maven](https://stackoverflow.com/questions/1784132/intellij-community-cant-use-http-proxy-for-maven)

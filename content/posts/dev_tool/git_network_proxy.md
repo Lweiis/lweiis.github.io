@@ -8,6 +8,8 @@ tags:
   - Proxy
   - 开发工具
 summary: Windows 下设置 Git 网络代理
+series:
+  - TheGreatWall
 ---
 由于神秘力量影响，想要从 GitHub Pull 或 Push 代码经常失败、缓慢，可以通过对 Git 设置网络代理来解决。
 
