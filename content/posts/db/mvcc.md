@@ -5,7 +5,7 @@ categories:
   - Git
 tags:
   - 数据库
-summary: 什么是 MVCC
+summary: 多版本并发控制，是一种数据库并发控制机制
 series:
   - 面试拾遗
 draft: false

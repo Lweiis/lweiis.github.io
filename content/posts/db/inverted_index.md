@@ -5,7 +5,7 @@ categories:
   - Git
 tags:
   - 数据库
-summary: 什么是倒排索引
+summary: 即【分词 -> 文档标识】的索引
 series:
   - 面试拾遗
 draft: false
