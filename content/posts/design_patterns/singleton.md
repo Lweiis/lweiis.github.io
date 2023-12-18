@@ -1,11 +1,10 @@
 ---
 title: 单例模式
 date: 2023-12-11
-categories: []
-tags: 
 summary: 问就是枚举
 series:
   - 设计模式
+  - 面试拾遗
 draft: false
 ---
 # 先说怎么写：
